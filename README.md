@@ -1,5 +1,7 @@
 # Aircraft Maintenance Lakehouse
 
+[![tests](https://github.com/rashedul-karim/aircraft-maintenance-lakehouse/actions/workflows/tests.yml/badge.svg)](https://github.com/rashedul-karim/aircraft-maintenance-lakehouse/actions/workflows/tests.yml)
+
 An end-to-end data pipeline for **predictive maintenance of aircraft engines**, built on Databricks with Delta Lake and Unity Catalog. It takes NASA's turbofan engine run-to-failure data from raw files to clean tables, engine-health features and a remaining-useful-life (RUL) model.
 
 The focus is the data engineering a maintenance organisation actually needs before any model is useful: traceable ingestion, data quality checks that stop bad loads, and tables that engineers can query.
