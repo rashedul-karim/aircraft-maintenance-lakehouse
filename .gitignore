@@ -1,0 +1,28 @@
+# NASA data files: download from the source, never commit them
+data/
+*.zip
+train_FD00*.txt
+test_FD00*.txt
+RUL_FD00*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local Spark runs
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.databrickscfg
